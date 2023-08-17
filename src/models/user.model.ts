@@ -1,4 +1,3 @@
-import { Hash } from "crypto";
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
@@ -10,7 +9,7 @@ const userSchema = new mongoose.Schema({
   },
   email: {
     type: String,
-    required: true
+    required: true,
   },
   passwordHash: {
     type: String,

@@ -32,7 +32,7 @@ const userRegistrationController = async (req: Request, res: Response) => {
         res.status(500).send({ message: "User already registered...!" });
       } else {
         console.log("======>er", error);
-        res.status(500).send({ message: "Unable to register the user a" });
+        res.status(500).send({ message: "Unable to register the user...!" });
       }
     }
   }
